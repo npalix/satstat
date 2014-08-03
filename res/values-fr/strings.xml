@@ -6,7 +6,7 @@
     <string name="action_record">Enregistrement</string>
     <string name="action_stop_record">Stopper l\'enregistrement</string>
     <string name="action_agps">Recharger les données AGPS</string>
-    <string name="action_about">A propos</string>
+    <string name="action_about">À propos</string>
     <string name="dot">&#x2b1b;</string>
     <string name="dotSpace">&#x2b1b;&#x00a0;</string>
     <string name="error_write_file">Erreur lors de l\'écriture du fichier</string>
@@ -15,8 +15,8 @@
     <string name="notify_record_title">Enregistrement des données du capteur</string>
     <string name="notify_record_body">Appuyer pour stopper l\'enregistrement</string>
     <string name="status_agps">Demande de chargement des données AGPS</string>
-    <string name="status_agps_captive">Impossible charger données – lancez navigateur, connectez-vous au réseau et réessayez</string>
-    <string name="status_agps_error">Aucun réseau disponible, impossible charger données AGPS</string>
+    <string name="status_agps_captive">Impossible de charger les données – lancez le navigateur, connectez-vous à un réseau et réessayez</string>
+    <string name="status_agps_error">Aucun réseau disponible, impossible de charger les données AGPS</string>
     <string name="title_section1">GPS</string>
     <string name="title_section2">Capteurs</string>
     <string name="title_section3">Radio</string>
@@ -25,8 +25,8 @@
     <string name="title_gps_decl">Decl.</string>
     <string name="title_gps_speed">Vitesse</string>
     <string name="title_gps_alt">Altitude</string>
-    <string name="title_gps_time">Obtention du dernier Fix</string>
-    <string name="title_gps_bear">Bearing</string>
+    <string name="title_gps_time">Obtention du dernier fix</string>
+    <string name="title_gps_bear">Azimuth</string>
     <string name="title_gps_orient">Orientation</string>
     <string name="title_gps_acc">Erreur</string>
     <string name="title_gps_sats">Satellites</string>
@@ -89,8 +89,8 @@
     <string name="title_radio_mac">BSSID (MAC)</string>
     <string name="title_radio_channel">Ch</string>
     <string name="title_radio_level">dBm</string>
-    <string name="title_activity_about">A propos</string>
-    <string name="about_caption">Location, Sensor and Radio Network Status</string>
+    <string name="title_activity_about">À propos</string>
+    <string name="about_caption">Status de la localisation, des capteurs et des réseaux radio</string>
     <string name="about_text">Si quelque chose ne fonctionne pas comme il le devrait,
         ou si vous avez une idée pour rendre l\'application meilleure, vous pouvez
         soumettre vos idées à l\'adresse:
@@ -125,7 +125,7 @@
     <string name="notify_nolocation_body">Appuyez pour voir l\'état</string>
     <string name="pref_notifications">Notifications</string>
     <string name="pref_agps">Mise à jour AGPS</string>
-    <string name="pref_wifi">A la connexion WiFi</string>
+    <string name="pref_wifi">À la connexion WiFi</string>
     <string name="pref_wifi_summary">Recharger données AGPS lorsque mon appareil se connecte à un réseau WiFi</string>
     <string name="pref_freq">Fréquence</string>
     <string-array name="prefs_freq_keys">
@@ -140,5 +140,5 @@
     </string-array>
     <string name="pref_lastupdate">Dernière mise à jour</string>
     <string name="pref_networks">Réseaux</string>
-    <string name="pref_networks_summary">Recharger données AGPS lorsque mon appareil se connecte à un des réseaux selectionnés</string>
+    <string name="pref_networks_summary">Recharger données AGPS lorsque mon appareil se connecte à un des réseaux sélectionnés</string>
 </resources>
