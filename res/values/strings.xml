@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="app_name">SatStat</string>
     <string name="action_settings">Settings</string>
@@ -8,7 +8,7 @@
     <string name="action_agps">Reload AGPS data</string>
     <string name="action_about">About</string>
     <string name="dot">&#x2b1b;</string>
-    <string name="smallDot">&#x25fc;</string>
+    <string name="smallDot" tools:ignore="MissingTranslation">&#x25fc;</string>
     <string name="dotSpace">&#x2b1b;&#x00a0;</string>
     <string name="error_write_file">Error writing to file</string>
     <string name="error_ext_storage">External storage not available</string>
@@ -128,7 +128,6 @@
     <string name="pref_wifi">On WiFi connect</string>
     <string name="pref_wifi_summary">Refresh AGPS data when my device connects to a WiFi network</string>
     <string name="pref_freq">Update frequency</string>
-    <string name="pref_freq_summary">%s</string>
     <string-array name="prefs_freq_keys">
         <item >Every time</item>
         <item >Once a day</item>
@@ -139,7 +138,7 @@
         <item >Once in 6 days</item>
         <item >Once a week</item>
     </string-array>
-    <string-array name="prefs_freq_values">
+    <string-array name="prefs_freq_values" tools:ignore="MissingTranslation">
         <item >0</item>
         <item >1</item>
         <item >2</item>
@@ -150,7 +149,7 @@
         <item >7</item>
     </string-array>
     <string name="pref_lastupdate">Last update</string>
-    <string name="pref_lastupdate_summary">%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS</string>
+    <string name="pref_lastupdate_summary" tools:ignore="MissingTranslation">%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS</string>
     <string name="pref_networks">Networks</string>
     <string name="pref_networks_summary">Refresh AGPS data when my device connects to one of the selected networks</string>
 </resources>
